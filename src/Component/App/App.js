@@ -17,6 +17,7 @@ export default function App() {
         nickName="The king of the jungle"
         sound="Roar"
         image={lImg}
+        variant="warning"
         alertName={alertName}
       />
       <Profile
@@ -25,6 +26,7 @@ export default function App() {
         nickName="ZigZaggy barcoded Mr. Zed"
         sound="Bray"
         image={zImg}
+        variant="danger"
         alertName={alertName}
       />
       <Profile
@@ -33,6 +35,7 @@ export default function App() {
         nickName="The king of your house"
         sound="Meow"
         image={cImg}
+        variant="primary"
         alertName={alertName}
       />
       <Profile
@@ -41,6 +44,7 @@ export default function App() {
         nickName="Goliath"
         sound="Trumpet"
         image={eImg}
+        variant="success"
         alertName={alertName}
       />
     </div>

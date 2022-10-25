@@ -12,7 +12,7 @@ function Profile(props){
         <h4>{props.nickName}</h4>
         <p>{props.bio}</p>
         <Button
-        variant="warning"
+        variant={props.variant}
         onClick={() => alertName(props.nickName,props.sound)}
         className="btn btn-profile"
         >
