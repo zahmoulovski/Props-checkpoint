@@ -1,0 +1,25 @@
+.profile {
+  text-align: center;
+  padding: 20px 20px;
+  margin: 50px;
+  width: 20%;
+  box-shadow: 0px 4px 8px 2px #888888;
+}
+.profile:hover{
+  background-color: #e8e8e8;
+  box-shadow: 0px 4px 8px 2px #ed5426;
+}
+h1 {
+  color: #ed5426;
+}
+h4{
+  color: #7d7d7d;
+}
+p {
+  color: #212121;
+  padding: 20px;
+}
+img {
+  border-radius: 100%;
+  margin: 20px 0;
+}
